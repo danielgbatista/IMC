@@ -55,15 +55,15 @@
             <form id="calc">
                 <div class="campo" >
                     <label>Nome:</label>
-                    <input type="text" id="nome">
+                    <input type="text" id="nome" required pattern="[^0-9]*">
                 </div>
                 <div class="campo unidade" data-unidade="metros">
                     <label>Altura:</label>
-                    <input type="text" id="altura">
+                    <input type="number" id="altura" step="any" min="0" max="2.0" required>
                 </div>
                 <div class="campo unidade" data-unidade="quilos">
                     <label>Peso:</label>
-                    <input type="text" id="peso">
+                    <input type="text" id="peso" required>
                 </div>
                 <button type="button" id="calcular">CALCULAR</button>
                 <div id="resultado"> 
@@ -77,6 +77,6 @@
             Copyright &copy; 2021 | Daniel Batista
         </span>
     </footer>
-    <script src="js/script.js" defer></script>
+    <script src="js/professor.js" defer></script>
 </body>
 </html>

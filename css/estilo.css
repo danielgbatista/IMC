@@ -4,6 +4,14 @@
     box-sizing: border-box;
 }
 
+.green{
+    color: brown;
+}
+
+.red{
+    color: chartreuse;
+}
+
 :root{
     --cor-destaque: #FCC91C;
 }

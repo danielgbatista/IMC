@@ -1,4 +1,6 @@
 
+
+
 // Declaração da variável do botão.
 const calcular = document.getElementById("calcular")
 
