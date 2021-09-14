@@ -1,2 +1,1 @@
-# IMC
 # Imc_javascript
